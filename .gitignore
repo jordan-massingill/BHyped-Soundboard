@@ -19,7 +19,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-public/assets/config.json
 public/assets/sounds/
 dist/
 !assets/sounds/.gitkeep

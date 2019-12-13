@@ -51,7 +51,7 @@ export class StandaloneSoundboard extends Component {
                 key_press={sound.keyPress}
                 playing_color={this.props.config.colors.playing}
               />
-              <p className="keypress">{sound.keyPress.toUpperCase()}</p>
+              <p className="keypress">{sound.title}</p>
           </div>);
           })}
         </section>

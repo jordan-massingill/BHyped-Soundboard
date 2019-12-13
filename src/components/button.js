@@ -27,7 +27,7 @@ export class StandaloneButton extends Component {
           className="button"
           onClick={this.buttonClick}
         >
-          <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{this.props.title}</div>
+          <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{this.props.key_press.toUpperCase()}</div>
           <audio
             src={src}
             preload="auto"

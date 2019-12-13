@@ -34,6 +34,7 @@ export class StandaloneSoundboard extends Component {
   }
 
   getSoundboard = () => {
+    console.log(this.props.config.sounds);
     return (
       <div>
         <Volumeslider />
@@ -42,13 +43,16 @@ export class StandaloneSoundboard extends Component {
           style={this.getSoundboardStyles()}
         >
           {this.props.config.sounds.map((sound) => {
-            return (<Button
-              file={sound.file}
-              key={sound.file}
-              title={sound.title}
-              button_color={this.props.config.colors.button}
-              playing_color={this.props.config.colors.playing}
-            />);
+            return (
+            <div className="buttonWrapper" key={sound.file}>
+              <Button
+                file={sound.file}
+                title={sound.title}
+                key_press={sound.keyPress}
+                playing_color={this.props.config.colors.playing}
+              />
+              <p className="keypress">{sound.keyPress.toUpperCase()}</p>
+          </div>);
           })}
         </section>
       </div>
@@ -71,7 +75,7 @@ export class StandaloneSoundboard extends Component {
     }
 
     let boardWidth = (BUTTON_SIZE + 30) * x,
-      boardHeight = (BUTTON_SIZE + 30) * y;
+      boardHeight = (BUTTON_SIZE + 60) * y;
 
     return {
       "width": boardWidth,

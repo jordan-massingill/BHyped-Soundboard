@@ -15,7 +15,6 @@ const store = createStore(
 
 store.subscribe(() => {
   let state = store.getState();
-  document.body.style.backgroundColor = state.config.colors.background;
   document.body.style.color = state.config.colors.text;
 });
 

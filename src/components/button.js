@@ -6,7 +6,7 @@ import * as actionCreators from "../action_creators";
 export class StandaloneButton extends Component {
   constructor(props) {
     super(props);
-    
+
     this.state = {
       playing: false
     }
@@ -15,26 +15,28 @@ export class StandaloneButton extends Component {
   render() {
     let src = `/assets/sounds/${this.props.file}`;
 
+    window.addEventListener("keydown", e => {
+      if (e.key === this.props.key_press) {
+        this.buttonClick()
+      }
+      return;
+    })
+
     return (
-      <div
-        className="button"
-        style={this.getButtonStyles()}
-        onClick={this.buttonClick}
-      >
-        <div className="tooltip">{this.props.title}</div>
-        <div
-          className="state"
-          style={this.getStateStyles()}
-        ></div>
-        <audio
-          src={src}
-          preload="auto"
-          ref={(tag) => { this._audioTag = tag; }}
-          onEnded={() => { this.setState({playing: false}); }}
-          onPause={() => { this.setState({playing: false}); }}
-          onPlaying={() => { this.setState({playing: true}); }}
-        ></audio>
-      </div>
+        <button
+          className="button"
+          onClick={this.buttonClick}
+        >
+          <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{this.props.title}</div>
+          <audio
+            src={src}
+            preload="auto"
+            ref={(tag) => { this._audioTag = tag; }}
+            onEnded={() => { this.setState({playing: false}); }}
+            onPause={() => { this.setState({playing: false}); }}
+            onPlaying={() => { this.setState({playing: true}); }}
+          ></audio>
+        </button>
     );
   }
 

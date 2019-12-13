@@ -1,7 +1,6 @@
 @import "~normalize.css/normalize.css";
 
 body {
-  background-color: #615A55;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -19,6 +18,8 @@ body {
   top: 50%;
   left: 50%;
   width: 70%;
+  display: flex;
+  flex-direction: row;
 }
 
 .volumeslider {
@@ -36,22 +37,44 @@ body {
 .button {
   height: 120px;
   width: 120px;
-  margin: 15px;
+  margin: 15px 15px 0px 15px;
   float: left;
-  border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  color: #b0b0b0;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+  background-image: linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 5px 2px rgba(0, 0, 0, 0.19);
+  border-bottom: solid 3px #b5b5b5;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 
-  .tooltip {
-    height: 20%;
-    font-size: 10px;
-    line-height: 23px;
-    text-align: center;
+  &:active {
+    background-image: -webkit-linear-gradient(#efefef 0%, #d6d6d6 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    border-bottom: none;
   }
 
-  .state {
-    width: 80%;
-    height: 60%;
-    margin: 10%;
-    border-radius: 3px;
+  &:focus {
+    outline: 0;
   }
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keypress {
+  font-weight: bold;
+  
 }

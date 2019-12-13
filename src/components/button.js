@@ -1,3 +1,4 @@
+import anime from 'animejs/lib/anime.es.js';
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
@@ -25,6 +26,7 @@ export class StandaloneButton extends Component {
     return (
         <button
           className="button"
+          id={this.props.id}
           onClick={this.buttonClick}
           ref={this.btnRef}
         >
@@ -33,8 +35,8 @@ export class StandaloneButton extends Component {
             src={src}
             preload="auto"
             ref={(tag) => { this._audioTag = tag; }}
-            onEnded={() => { this.setState({playing: false}); }}
-            onPause={() => { this.setState({playing: false}); }}
+            onEnded={() => { this.setState({playing: false}); anime({ targets: `#${this.props.id}`, scale: 1 })}}
+            onPause={() => { this.setState({playing: false}); anime({ targets: `#${this.props.id}`, scale: 1 })}}
             onPlaying={() => { this.setState({playing: true}); }}
           ></audio>
         </button>
@@ -48,6 +50,10 @@ export class StandaloneButton extends Component {
       this._audioTag.currentTime = 0.0;
       this._audioTag.volume = this.props.volume / 100;
       this._audioTag.play();
+      anime({
+        targets: `#${this.props.id}`,
+        scale: 1.5
+      })
     }
   }
 

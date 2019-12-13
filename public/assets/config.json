@@ -9,12 +9,50 @@
     {
       "title": "Ding",
       "file": "ding.ogg",
-      "keyPress": "d"
+      "id": "ding",
+      "keyPress": "1"
     },
     {
-      "title": "Laughter",
-      "file": "laughter.ogg",
-      "keyPress": "l"
+      "title": "Ew, David",
+      "file": "ew-david.mp3",
+      "id": "ewdavid",
+      "keyPress": "2"
+    },
+    {
+      "title": "Gif",
+      "file": "gif.mp3",
+      "id": "gif",
+      "keyPress": "3"
+    },
+    {
+      "title": "What?!",
+      "file": "lil-jon-what.wav",
+      "id": "what",
+      "keyPress": "4"
+    },
+    {
+      "title": "Yeah!",
+      "file": "lil-jon-yeah.wav",
+      "id": "yeah",
+      "keyPress": "5"
+    },
+    {
+      "title": "Okay!!",
+      "file": "lil-jon-okay.wav",
+      "id": "okay",
+      "keyPress": "6"
+    },
+    {
+      "title": "Airhorns",
+      "file": "real-airhorns.wav",
+      "id": "airhorns",
+      "keyPress": "7"
+    },
+    {
+      "title": "Otter Award",
+      "file": "otter-award.mp3",
+      "id": "otter",
+      "keyPress": "o"
     }
   ]
 }

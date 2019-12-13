@@ -7,7 +7,7 @@ import { Volumeslider } from "./volumeslider";
 
 require("../assets/css/main.scss");
 
-const BUTTON_SIZE = 120;
+const BUTTON_SIZE = 80;
 
 export class StandaloneSoundboard extends Component {
   componentDidMount() {
@@ -34,7 +34,6 @@ export class StandaloneSoundboard extends Component {
   }
 
   getSoundboard = () => {
-    console.log(this.props.config.sounds);
     return (
       <div>
         <Volumeslider />
@@ -47,7 +46,9 @@ export class StandaloneSoundboard extends Component {
             <div className="buttonWrapper" key={sound.file}>
               <Button
                 file={sound.file}
+                id={sound.id}
                 key_press={sound.keyPress}
+                title={sound.title}
                 playing_color={this.props.config.colors.playing}
               />
               <p className="keypress">{sound.title}</p>

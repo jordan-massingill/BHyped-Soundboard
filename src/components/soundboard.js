@@ -47,7 +47,6 @@ export class StandaloneSoundboard extends Component {
             <div className="buttonWrapper" key={sound.file}>
               <Button
                 file={sound.file}
-                title={sound.title}
                 key_press={sound.keyPress}
                 playing_color={this.props.config.colors.playing}
               />

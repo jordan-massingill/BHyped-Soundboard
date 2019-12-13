@@ -7,6 +7,7 @@ export class StandaloneButton extends Component {
   constructor(props) {
     super(props);
 
+    this.btnRef = React.createRef()
     this.state = {
       playing: false
     }
@@ -14,10 +15,9 @@ export class StandaloneButton extends Component {
 
   render() {
     let src = `/assets/sounds/${this.props.file}`;
-
     window.addEventListener("keydown", e => {
       if (e.key === this.props.key_press) {
-        this.buttonClick()
+        this.btnRef.current.click()
       }
       return;
     })
@@ -26,6 +26,7 @@ export class StandaloneButton extends Component {
         <button
           className="button"
           onClick={this.buttonClick}
+          ref={this.btnRef}
         >
           <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{this.props.key_press.toUpperCase()}</div>
           <audio

@@ -21,7 +21,9 @@ export class StandaloneButton extends Component {
         this.btnRef.current.click()
       }
       return;
-    })
+    });
+
+    console.log(/^[a-z]$/.test(this.props.key_press));
 
     return (
         <button
@@ -30,7 +32,7 @@ export class StandaloneButton extends Component {
           onClick={this.buttonClick}
           ref={this.btnRef}
         >
-          <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{this.props.key_press.toUpperCase()}</div>
+          <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{/^[a-z]$/.test(this.props.key_press) ? this.props.key_press.toUpperCase() : this.props.key_press}</div>
           <audio
             src={src}
             preload="auto"

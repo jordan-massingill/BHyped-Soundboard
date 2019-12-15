@@ -56,6 +56,34 @@
       "theme": "fun"
     },
     {
+      "title": "Jason",
+      "file": "jason.mp3",
+      "id": "jason",
+      "keyPress": "j",
+      "theme": "theme"
+    },
+    {
+      "title": "Record Scratch",
+      "file": "record-scratch.mp3",
+      "id": "scratch",
+      "keyPress": "8",
+      "theme": "fun"
+    },
+    {
+      "title": "Scientists",
+      "file": "scientists.mp3",
+      "id": "scientists",
+      "keyPress": "9",
+      "theme": "fun"
+    },
+    {
+      "title": "Securrity",
+      "file": "security.mp3",
+      "id": "security",
+      "keyPress": "0",
+      "theme": "fun"
+    },
+    {
       "title": "Otter Award",
       "file": "otter-award.mp3",
       "id": "otter",

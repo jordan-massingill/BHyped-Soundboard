@@ -32,6 +32,15 @@ body {
 #soundboard, #soundboard2 {
   display: flex;
   flex-flow: row wrap;
+  border-radius: 10%;
+}
+
+#soundboard {
+  background: rgba(0, 255, 255, .2);
+}
+
+#soundboard2 {
+  background: rgba(255, 0, 255, .2);
 }
 
 .volumeslider {

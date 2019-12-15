@@ -86,7 +86,7 @@ export class StandaloneSoundboard extends Component {
       y = 1;
 
     while ((x * y) < this.props.config.sounds.length) {
-      var solRes = x / y;
+      var solRes = x / (4*y);
 
       if (solRes < screenRes) {
         x++;

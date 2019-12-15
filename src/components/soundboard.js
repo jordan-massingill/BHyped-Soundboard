@@ -35,27 +35,48 @@ export class StandaloneSoundboard extends Component {
 
   getSoundboard = () => {
     return (
-      <div>
+      <>
         <Volumeslider />
-        <section
-          id="soundboard"
-          style={this.getSoundboardStyles()}
-        >
-          {this.props.config.sounds.map((sound) => {
-            return (
-            <div className="buttonWrapper" key={sound.file}>
-              <Button
-                file={sound.file}
-                id={sound.id}
-                key_press={sound.keyPress}
-                title={sound.title}
-                playing_color={this.props.config.colors.playing}
-              />
-              <p className="keypress">{sound.title}</p>
-          </div>);
-          })}
-        </section>
-      </div>
+        <div className="soundboardWrapper">
+          <section
+            id="soundboard"
+            style={this.getSoundboardStyles()}
+          >
+            {this.props.config.sounds.filter(sound => sound.theme === "fun").map((sound) => {
+              return (
+              <div className="buttonWrapper" key={sound.file}>
+                <Button
+                  file={sound.file}
+                  id={sound.id}
+                  key_press={sound.keyPress}
+                  title={sound.title}
+                  playing_color={this.props.config.colors.playing}
+                />
+                <p className="keypress">{sound.title}</p>
+            </div>);
+            })}
+          </section>
+
+          <section
+            id="soundboard2"
+            style={this.getSoundboardStyles()}
+          >
+            {this.props.config.sounds.filter(sound => sound.theme === "throwdown").map((sound) => {
+              return (
+              <div className="buttonWrapper" key={sound.file}>
+                <Button
+                  file={sound.file}
+                  id={sound.id}
+                  key_press={sound.keyPress}
+                  title={sound.title}
+                  playing_color={this.props.config.colors.playing}
+                />
+                <p className="keypress">{sound.title}</p>
+            </div>);
+            })}
+          </section>
+        </div>
+      </>
     );
   }
 
@@ -79,9 +100,7 @@ export class StandaloneSoundboard extends Component {
 
     return {
       "width": boardWidth,
-      "height": boardHeight,
-      "marginLeft": "-" + boardWidth / 2 + "px",
-      "marginTop": "-" + boardHeight / 2 + "px"
+      "height": boardHeight
     };
   }
 }

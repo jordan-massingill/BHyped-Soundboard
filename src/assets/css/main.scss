@@ -8,15 +8,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  height: 100vh;
+}
+
 .fullscreenmessage {
   text-align: center;
   margin-top: 50px;
 }
 
-#soundboard {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.soundboardWrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#soundboard, #soundboard2 {
   display: flex;
   flex-flow: row wrap;
 }

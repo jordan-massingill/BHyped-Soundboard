@@ -10,49 +10,57 @@
       "title": "Ding",
       "file": "ding.ogg",
       "id": "ding",
-      "keyPress": "1"
+      "keyPress": "1",
+      "theme": "fun"
     },
     {
       "title": "Ew, David",
       "file": "ew-david.mp3",
       "id": "ewdavid",
-      "keyPress": "2"
+      "keyPress": "2",
+      "theme": "fun"
     },
     {
       "title": "Gif",
       "file": "gif.mp3",
       "id": "gif",
-      "keyPress": "3"
+      "keyPress": "3",
+      "theme": "fun"
     },
     {
       "title": "What?!",
       "file": "lil-jon-what.wav",
       "id": "what",
-      "keyPress": "4"
+      "keyPress": "4",
+      "theme": "fun"
     },
     {
       "title": "Yeah!",
       "file": "lil-jon-yeah.wav",
       "id": "yeah",
-      "keyPress": "5"
+      "keyPress": "5",
+      "theme": "fun"
     },
     {
       "title": "Okay!!",
       "file": "lil-jon-okay.wav",
       "id": "okay",
-      "keyPress": "6"
+      "keyPress": "6",
+      "theme": "fun"
     },
     {
       "title": "Airhorns",
       "file": "real-airhorns.wav",
       "id": "airhorns",
-      "keyPress": "7"
+      "keyPress": "7",
+      "theme": "fun"
     },
     {
       "title": "Otter Award",
       "file": "otter-award.mp3",
       "id": "otter",
-      "keyPress": "o"
+      "keyPress": "o",
+      "theme": "throwdown"
     }
   ]
 }

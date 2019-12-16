@@ -32,6 +32,7 @@ body {
 #soundboard, #soundboard2 {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   border-radius: 10%;
 }
 

@@ -7,52 +7,150 @@
   },
   "sounds": [
     {
-      "title": "Ding",
-      "file": "ding.ogg",
-      "id": "ding",
+      "title": "Ew, David",
+      "file": "ew-david.mp3",
+      "id": "ewdavid",
       "keyPress": "1",
       "theme": "fun"
     },
     {
-      "title": "Ew, David",
-      "file": "ew-david.mp3",
-      "id": "ewdavid",
+      "title": "Cat Meow",
+      "file": "kephren-meow.mp3",
+      "id": "meowKeph",
       "keyPress": "2",
       "theme": "fun"
     },
     {
-      "title": "Gif",
-      "file": "gif.mp3",
-      "id": "gif",
+      "title": "Cat Meow-2",
+      "file": "emily-meow.mp3",
+      "id": "meowEm",
       "keyPress": "3",
+      "theme": "fun"
+    },
+    {
+      "title": "Cat Bath",
+      "file": "stay-in-this-tub.mp3",
+      "id": "catbath",
+      "keyPress": "4",
       "theme": "fun"
     },
     {
       "title": "What?!",
       "file": "lil-jon-what.wav",
       "id": "what",
-      "keyPress": "4",
+      "keyPress": "5",
       "theme": "fun"
     },
     {
       "title": "Yeah!",
       "file": "lil-jon-yeah.wav",
       "id": "yeah",
-      "keyPress": "5",
+      "keyPress": "6",
       "theme": "fun"
     },
     {
       "title": "Okay!!",
       "file": "lil-jon-okay.wav",
       "id": "okay",
-      "keyPress": "6",
+      "keyPress": "7",
       "theme": "fun"
     },
     {
       "title": "Airhorns",
       "file": "real-airhorns.wav",
       "id": "airhorns",
-      "keyPress": "7",
+      "keyPress": "8",
+      "theme": "fun"
+    },
+    {
+      "title": "Airhorn-Emily",
+      "file": "emily-airhorn.mp3",
+      "id": "airhornEm",
+      "keyPress": "9",
+      "theme": "fun"
+    },
+    {
+      "title": "Airhorn-Justin",
+      "file": "justin-airhorn.mp3",
+      "id": "airhornJustin",
+      "keyPress": "0",
+      "theme": "fun"
+    },
+    {
+      "title": "Me me me...",
+      "file": "me-me-me-me.mp3",
+      "id": "me",
+      "keyPress": "'",
+      "theme": "fun"
+    },
+    {
+      "title": "Okaaayyyy...",
+      "file": "rob-okay.mp3",
+      "id": "okayyy",
+      "keyPress": "`",
+      "theme": "fun"
+    },
+    {
+      "title": "Actually-1",
+      "file": "actually-1.mp3",
+      "id": "actuallyOne",
+      "keyPress": "-",
+      "theme": "fun"
+    },
+    {
+      "title": "Actually-2",
+      "file": "actually-2.mp3",
+      "id": "actuallyTwo",
+      "keyPress": "=",
+      "theme": "fun"
+    },
+    {
+      "title": "Actually-3",
+      "file": "actually-3.mp3",
+      "id": "actuallyThree",
+      "keyPress": "[",
+      "theme": "fun"
+    },
+    {
+      "title": "Actually-4",
+      "file": "actually-4.mp3",
+      "id": "actuallyFour",
+      "keyPress": "]",
+      "theme": "fun"
+    },
+    {
+      "title": "Actually-5",
+      "file": "actually-5.mp3",
+      "id": "actuallyFive",
+      "keyPress": ";",
+      "theme": "fun"
+    },
+    {
+      "title": "Oklahoma-1",
+      "file": "oklahoma-1.mp3",
+      "id": "okOne",
+      "keyPress": ",",
+      "theme": "fun"
+    },
+    {
+      "title": "Oklahoma-2",
+      "file": "oklahoma-2.mp3",
+      "id": "okTwo",
+      "keyPress": ".",
+      "theme": "fun"
+    },
+    {
+      "title": "Record Scratch",
+      "file": "record-scratch.mp3",
+      "id": "scratch",
+      "keyPress": "!",
+      "theme": "fun"
+    },
+    {
+      "title": "Clappers",
+      "file": "clappers.mp3",
+      "id": "clappers",
+      "keyPress": "@",
       "theme": "fun"
     },
     {
@@ -60,28 +158,84 @@
       "file": "jason.mp3",
       "id": "jason",
       "keyPress": "j",
-      "theme": "theme"
+      "theme": "throwdown"
     },
     {
-      "title": "Record Scratch",
-      "file": "record-scratch.mp3",
-      "id": "scratch",
-      "keyPress": "8",
-      "theme": "fun"
+      "title": "CHI-ChanInt",
+      "file": "i-speak-your-language-too.mp3",
+      "id": "CHI",
+      "keyPress": "c",
+      "theme": "throwdown"
     },
     {
-      "title": "Scientists",
+      "title": "CHP-ChanPlat",
+      "file": "stronger-than-me.mp3",
+      "id": "CHP",
+      "keyPress": "l",
+      "theme": "throwdown"
+    },
+    {
+      "title": "WCSS Pod",
+      "file": "in-oklahoma.mp3",
+      "id": "wcss",
+      "keyPress": "w",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Product",
+      "file": "product.mp3",
+      "id": "product",
+      "keyPress": "p",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Product-2",
+      "file": "no-drinking.mp3",
+      "id": "noDrinking",
+      "keyPress": "r",
+      "theme": "throwdown"
+    },
+    {
+      "title": "IAM pt1",
+      "file": "sweet-caroline-1.mp3",
+      "id": "iamOne",
+      "keyPress": "i",
+      "theme": "throwdown"
+    },
+    {
+      "title": "IAM pt2",
+      "file": "sweet-caroline-ba-ba-ba.mp3",
+      "id": "iamTwo",
+      "keyPress": "a",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Engineering",
       "file": "scientists.mp3",
       "id": "scientists",
-      "keyPress": "9",
-      "theme": "fun"
+      "keyPress": "e",
+      "theme": "throwdown"
     },
     {
-      "title": "Securrity",
+      "title": "Security",
       "file": "security.mp3",
       "id": "security",
-      "keyPress": "0",
-      "theme": "fun"
+      "keyPress": "s",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Design",
+      "file": "gif.mp3",
+      "id": "gif",
+      "keyPress": "d",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Design-2",
+      "file": "frappuccino.mp3",
+      "id": "frap",
+      "keyPress": "f",
+      "theme": "throwdown"
     },
     {
       "title": "Otter Award",

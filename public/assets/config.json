@@ -87,13 +87,6 @@
       "title": "Okaaayyyy...",
       "file": "rob-okay.mp3",
       "id": "okayyy",
-      "keyPress": "`",
-      "theme": "fun"
-    },
-    {
-      "title": "Actually-1",
-      "file": "actually-1.mp3",
-      "id": "actuallyOne",
       "keyPress": "-",
       "theme": "fun"
     },
@@ -173,6 +166,13 @@
       "id": "CHP",
       "keyPress": "l",
       "theme": "throwdown"
+    },
+    {
+      "title": "Platform",
+      "file": "actually-1.mp3",
+      "id": "actuallyOne",
+      "keyPress": "t",
+      "theme": "fun"
     },
     {
       "title": "WCSS Pod",

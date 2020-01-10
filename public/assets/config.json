@@ -147,10 +147,24 @@
       "theme": "fun"
     },
     {
+      "title": "Throwdown Theme",
+      "file": "throwdown-theme.mp3",
+      "id": "throwdownTheme",
+      "keyPress": "z",
+      "theme": "throwdown"
+    },
+    {
       "title": "Jason",
       "file": "jason.mp3",
       "id": "jason",
       "keyPress": "j",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Kyle",
+      "file": "kyle.mp3",
+      "id": "kyle",
+      "keyPress": "k",
       "theme": "throwdown"
     },
     {

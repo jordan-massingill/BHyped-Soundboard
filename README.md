@@ -17,3 +17,6 @@ Build
 * `yarn build` generates a new production package inside the `build` directory.
 
 
+This soundboard is deployed at https://bhyped-soundboard.netlify.app/
+
+

@@ -196,6 +196,13 @@
       "theme": "throwdown"
     },
     {
+      "title": "LFG",
+      "file": "lfg.mp3",
+      "id": "lfg",
+      "keyPress": "l",
+      "theme": "throwdown"
+    },
+    {
       "title": "Kyle",
       "file": "kyle.mp3",
       "id": "kyle",

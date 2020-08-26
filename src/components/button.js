@@ -32,7 +32,7 @@ export class StandaloneButton extends Component {
           onClick={this.buttonClick}
           ref={this.btnRef}
         >
-          <div className="title" style={{color: this.state.playing ? "#FF00FF" : ""}}>{/^[a-z]$/.test(this.props.key_press) ? this.props.key_press.toUpperCase() : this.props.key_press}</div>
+          <div className="title" style={{color: this.state.playing ? "#0D52FF" : ""}}>{/^[a-z]$/.test(this.props.key_press) ? this.props.key_press.toUpperCase() : this.props.key_press}</div>
           <audio
             src={src}
             preload="auto"

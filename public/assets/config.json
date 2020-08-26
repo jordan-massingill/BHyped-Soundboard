@@ -147,17 +147,38 @@
       "theme": "fun"
     },
     {
-      "title": "Throwdown Theme",
+      "title": "Horse",
+      "file": "horse-neigh.mp3",
+      "id": "horse",
+      "keyPress": "h",
+      "theme": "fun"
+    },
+    {
+      "title": "Throwdown",
       "file": "throwdown-theme.mp3",
       "id": "throwdownTheme",
       "keyPress": "z",
       "theme": "throwdown"
     },
     {
+      "title": "Mahna Mahna(Walkoff)",
+      "file": "mahna-mahna.mp3",
+      "id": "mahnamahna",
+      "keyPress": "",
+      "theme": "throwdown"
+    },
+    {
+      "title": "Brian",
+      "file": "brian.m4a",
+      "id": "brian",
+      "keyPress": "b",
+      "theme": "throwdown"
+    },
+    {
       "title": "David",
       "file": "david.mp3",
       "id": "david",
-      "keyPress": "b",
+      "keyPress": "d",
       "theme": "throwdown"
     },
     {
@@ -168,6 +189,13 @@
       "theme": "throwdown"
     },
     {
+      "title": "R.A.",
+      "file": "all-i-do-is-win.mp3",
+      "id": "ra",
+      "keyPress": "r",
+      "theme": "throwdown"
+    },
+    {
       "title": "Kyle",
       "file": "kyle.mp3",
       "id": "kyle",
@@ -175,101 +203,87 @@
       "theme": "throwdown"
     },
     {
-      "title": "CHI-ChanInt",
-      "file": "i-speak-your-language-too.mp3",
-      "id": "CHI",
-      "keyPress": "c",
-      "theme": "throwdown"
-    },
-    {
-      "title": "CHP-ChanPlat",
-      "file": "stronger-than-me.mp3",
-      "id": "CHP",
-      "keyPress": "l",
-      "theme": "throwdown"
-    },
-    {
       "title": "Platform",
       "file": "actually-1.mp3",
       "id": "actuallyOne",
-      "keyPress": "t",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Marketplace Ops",
       "file": "Frap-This-Is-Nice.mp3",
       "id": "frapNice",
-      "keyPress": "m",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "WCSS Pod",
       "file": "in-oklahoma.mp3",
       "id": "wcss",
-      "keyPress": "w",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Product",
       "file": "product.mp3",
       "id": "product",
-      "keyPress": "p",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Product-2",
       "file": "no-drinking.mp3",
       "id": "noDrinking",
-      "keyPress": "r",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "IAM pt1",
       "file": "sweet-caroline-1.mp3",
       "id": "iamOne",
-      "keyPress": "i",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "IAM pt2",
       "file": "sweet-caroline-ba-ba-ba.mp3",
       "id": "iamTwo",
-      "keyPress": "a",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Engineering",
       "file": "scientists.mp3",
       "id": "scientists",
-      "keyPress": "e",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Security",
       "file": "security.mp3",
       "id": "security",
-      "keyPress": "s",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Design",
       "file": "gif.mp3",
       "id": "gif",
-      "keyPress": "d",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Design-2",
       "file": "frappuccino.mp3",
       "id": "frap",
-      "keyPress": "f",
+      "keyPress": "",
       "theme": "throwdown"
     },
     {
       "title": "Otter Award",
       "file": "otter-award.mp3",
       "id": "otter",
-      "keyPress": "o",
+      "keyPress": "",
       "theme": "throwdown"
     }
   ]

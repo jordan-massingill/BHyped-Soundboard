@@ -40,6 +40,7 @@ export class StandaloneSoundboard extends Component {
         <div className="soundboardWrapper">
           <section
             id="soundboard"
+            className="soundboard"
             style={this.getSoundboardStyles()}
           >
             {this.props.config.sounds.filter(sound => sound.theme === "fun").map((sound) => {
@@ -59,6 +60,7 @@ export class StandaloneSoundboard extends Component {
 
           <section
             id="soundboard2"
+            className="soundboard"
             style={this.getSoundboardStyles()}
           >
             {this.props.config.sounds.filter(sound => sound.theme === "throwdown").map((sound) => {
